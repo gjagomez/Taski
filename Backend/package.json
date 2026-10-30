@@ -1,0 +1,26 @@
+{
+  "name": "gestor-proyectos-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "db:reset": "node src/db/reset.js",
+    "test": "node --test --test-concurrency=1 \"tests/*.test.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^5.5.1",
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^18.0.8",
+    "graphql": "^16.14.2",
+    "jsonwebtoken": "^9.0.3",
+    "mammoth": "^1.13.0",
+    "mysql2": "^3.24.6",
+    "unpdf": "^1.9.0"
+  }
+}
